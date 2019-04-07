@@ -16,6 +16,6 @@
   :repl
   {:extra-deps
    {nuid/deps
-    {:git/url "git@github.com:nuid/deps.git",
-     :sha "858ceadf16e1e84ca2d66abfdd36002cb058af15"}}}},
+    {:git/url "https://github.com/nuid/deps.git",
+     :sha "9d5a2d48467ee0e6a009651ae74003555943d94e"}}}},
  :paths ["src"]}
