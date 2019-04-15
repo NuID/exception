@@ -10,7 +10,7 @@ Cross-platform exception facilities.
 
 ### tools.deps:
 
-`{nuid/exception {:git/url "https://github.com/nuid/exception" :sha "..."}`
+`{nuid/exception {:git/url "https://github.com/nuid/exception" :sha "..."}}`
 
 ### usage:
 
