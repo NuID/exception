@@ -8,4 +8,4 @@
   {:output-to "target/node/nuid_exception.js",
    :exports-var nuid.exception/exports,
    :target :node-library}},
- :deps {:aliases []}}
+ :deps {:aliases [:shadow]}}
