@@ -6,4 +6,4 @@
                       :cljs (js/Error. message))}}]
   (throw exception))
 
-#?(:cljs (def exports #js {:throw #(throw! (js->clj % :keywordize-keys true))}))
+#?(:cljs (def exports #js {}))
