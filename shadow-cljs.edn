@@ -1,12 +1,1 @@
-{:deps {:aliases [:cljs]}
- :builds
- {:browser
-  {:modules    {:nuid_exception {:entries [nuid.exception]}},
-   :output-dir "target/browser",
-   :asset-path "target/browser",
-   :target     :browser},
-
-  :node
-  {:output-to   "target/node/nuid_exception.js",
-   :exports-var nuid.exception/exports,
-   :target      :node-library}}}
+{:deps {:aliases [:cljs]}}
