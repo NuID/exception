@@ -19,7 +19,7 @@ Cross-platform exception facilities.
 ```
 $ clj # or shadow-cljs node-repl
 => (require '[nuid.exception :as exception])
-=> (exception/throw! {:message "I failed!"})
+=> (exception/throw! {::exception/message "I failed!"})
 ```
 
 ## Licensing
